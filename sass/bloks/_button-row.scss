@@ -1,0 +1,8 @@
+.button-row{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.button-row > .button + .button{
+  margin-left: 20px;
+}
